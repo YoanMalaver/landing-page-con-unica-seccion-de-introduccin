@@ -11,25 +11,41 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/8e52938f89.js"></script>
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
-
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
+    <header class="container">
+      <img src="./images/logo.svg" alt="Logotipo Huddle" />
+    </header>
+    <section class="container contain__main">
+      <div class="contain__main--img">
+        <img
+          src="./images/illustration-mockups.svg"
+          alt="ilustracion mockups"
+        />
+      </div>
+      <article class="contain__main--text">
+        <h1>
+          Build The Community <br />
+          Your Fans Will Love
+        </h1>
+        <p>
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button>Register</button>
+      </article>
+    </section>
+    <footer class="footer">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </footer>
   </body>
 </html>

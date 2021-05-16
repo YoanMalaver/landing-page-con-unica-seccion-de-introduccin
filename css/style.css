@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #674bb1;
+  background-image: url('../images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 25px;
+  height: 100vh;
+  font-family: sans-serif;
+  color: white;
+}
+h1 {
+  font-size: 42px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+header img {
+  margin-top: 20px;
+  object-fit: contain;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+.contain__main {
+  padding-top: 90px;
+}
+.contain__main--img {
+  width: 50%;
+}
+.contain__main--img img {
+  max-width: 100%;
+}
+
+.contain__main article {
+  width: 50%;
+  margin: 0 70px;
+  padding-top: 50px;
+}
+
+.contain__main--text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding: 20px 20px 20px 0;
+}
+.contain__main button {
+  border: 1px solid gray;
+  border-radius: 50px;
+  box-shadow: -1px 1px 10px #0000009c;
+  color: #674bb1;
+  padding: 10px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contain__main button:hover {
+  background-color: #674bb1;
+  color: white;
+  /* font-weight: bold; */
+}
+.footer {
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 90px;
+  margin: 70px 0 20px 0;
+}
+.footer i {
+  width: 40px;
+  height: 14px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 10px;
+  text-align: center;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.footer i:hover {
+  background-color: white;
+  color: #674bb1;
+}
+
+@media only screen and (max-width: 376px) {
+  body {
+    text-align: center;
+    background-image: url('../images/bg-mobile.svg');
+    background-position-x: 0;
+    background-position-y: 0;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  header img {
+    margin-top: 20px;
+    width: 100px;
+  }
+  .container {
+    max-width: 300px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .contain__main {
+    width: 100%;
+    padding-top: 80px;
+  }
+  .contain__main--img {
+    width: 100%;
+  }
+  .contain__main article {
+    width: 100%;
+    margin: 0;
+  }
+  .contain__main--text p {
+    padding: 20px 0;
+  }
+  .contain__main button {
+    font-size: 14px;
+    padding: 10px 70px;
+  }
+  .footer {
+    justify-content: center;
+    margin: 20px 0;
+    padding: 15px 0;
+  }
+  .footer i {
+    margin: 10px;
+  }
+}
