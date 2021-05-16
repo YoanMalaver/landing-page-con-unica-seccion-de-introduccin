@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-/* .attribution {
-  font-size: 11px;
-  text-align: center;
-} */
 * {
   margin: 0;
   padding: 0;
@@ -65,14 +61,13 @@ header img {
 .contain__main button:hover {
   background-color: #674bb1;
   color: white;
-  /* font-weight: bold; */
 }
 .footer {
   bottom: 0;
   display: flex;
   justify-content: flex-end;
   padding-right: 90px;
-  margin: 70px 0 20px 0;
+  margin: 40px 0 20px 0;
 }
 .footer i {
   width: 40px;
@@ -89,7 +84,7 @@ header img {
   color: #674bb1;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 415px) {
   body {
     text-align: center;
     background-image: url('../images/bg-mobile.svg');
